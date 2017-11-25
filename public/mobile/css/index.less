@@ -1,0 +1,104 @@
+
+.lt_view{
+    position: relative;
+    height: 100%;
+    //导航
+    .product_nav{
+        padding: 10px;
+        a{
+            display: block;
+            float: left;
+            width: 33.33%;
+            img{
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+
+    //买就送
+    .product_sale{
+        margin-top: 5px;
+        padding: 0 10px;
+        a{
+            display: block;
+            float: left;
+            width:67.1%;
+            img{
+                float: left;
+                display: block;
+                width: 50%;
+            }
+        }
+        a:nth-child(2n+1){
+            width: 67.1%;
+        }
+        a:nth-child(2){
+            width: 32.9%;
+            float: right;
+            img{
+                width: 100%;
+            }
+        }
+        
+    }
+
+    //品牌专区
+    .brand{
+        .brand_title{
+            a{
+                width: 100%;
+            }
+        }
+        a{
+            display: block;
+            float: left;
+            width: 25%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    //运动生活专区
+    .life_sport{
+        .life_sport_title{
+            a{
+                width: 100%;
+                display: block;
+                img{
+                    display: block;
+                    width: 100%;
+                }
+            }
+            
+        }
+        .life_sport_content{
+            padding: 0 5px;
+            .product_info{
+                padding: 5px;
+                float: left;
+                width: 50%;
+                .product_box{
+                    
+                    border: 1px solid #ccc;
+                    padding-bottom: 10px;
+                    text-align: center;
+                    img{
+                        display: block;
+                        width: 100%;
+                    }
+                    .old_price{
+                        text-decoration: line-through;
+                    }
+                    .new_price{
+                        color: red;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+

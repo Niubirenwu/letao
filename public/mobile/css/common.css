@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+}
+body {
+  background: #fff;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 5px 10px;
+  text-align: center;
+  height: 40px;
+  background: skyblue;
+}
+header h4 {
+  color: #fff;
+  font-weight: normal;
+}
+header h4 a {
+  color: inherit;
+}
+header h4 a .mui-icon {
+  font-weight: 600;
+  float: right;
+}
+header h4 .left {
+  font-size: 20px;
+  float: left;
+}
+footer {
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: skyblue;
+  padding-top: 5px;
+}
+footer a {
+  float: left;
+  width: 25%;
+  text-align: center;
+  color: #fff;
+}
+footer a .mui-icon {
+  font-size: 16px;
+}
+footer a p {
+  font-size: 14px;
+  color: inherit;
+}
+footer .active {
+  color: orange;
+}
+.lt_loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  animation: ani_lt_loading 1s infinite linear;
+  display: none;
+}
+@keyframes ani_lt_loading {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+/*# sourceMappingURL=./common.css.map */

@@ -1,0 +1,83 @@
+.lt_view {
+  position: relative;
+  height: 100%;
+}
+.lt_view .product_nav {
+  padding: 10px;
+}
+.lt_view .product_nav a {
+  display: block;
+  float: left;
+  width: 33.33%;
+}
+.lt_view .product_nav a img {
+  display: block;
+  width: 100%;
+}
+.lt_view .product_sale {
+  margin-top: 5px;
+  padding: 0 10px;
+}
+.lt_view .product_sale a {
+  display: block;
+  float: left;
+  width: 67.1%;
+}
+.lt_view .product_sale a img {
+  float: left;
+  display: block;
+  width: 50%;
+}
+.lt_view .product_sale a:nth-child(2n+1) {
+  width: 67.1%;
+}
+.lt_view .product_sale a:nth-child(2) {
+  width: 32.9%;
+  float: right;
+}
+.lt_view .product_sale a:nth-child(2) img {
+  width: 100%;
+}
+.lt_view .brand .brand_title a {
+  width: 100%;
+}
+.lt_view .brand a {
+  display: block;
+  float: left;
+  width: 25%;
+}
+.lt_view .brand a img {
+  width: 100%;
+}
+.lt_view .life_sport .life_sport_title a {
+  width: 100%;
+  display: block;
+}
+.lt_view .life_sport .life_sport_title a img {
+  display: block;
+  width: 100%;
+}
+.lt_view .life_sport .life_sport_content {
+  padding: 0 5px;
+}
+.lt_view .life_sport .life_sport_content .product_info {
+  padding: 5px;
+  float: left;
+  width: 50%;
+}
+.lt_view .life_sport .life_sport_content .product_info .product_box {
+  border: 1px solid #ccc;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.lt_view .life_sport .life_sport_content .product_info .product_box img {
+  display: block;
+  width: 100%;
+}
+.lt_view .life_sport .life_sport_content .product_info .product_box .old_price {
+  text-decoration: line-through;
+}
+.lt_view .life_sport .life_sport_content .product_info .product_box .new_price {
+  color: red;
+}
+/*# sourceMappingURL=./index.css.map */

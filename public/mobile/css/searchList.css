@@ -1,0 +1,91 @@
+header {
+  z-index: 2;
+}
+.lt_view {
+  position: relative;
+  padding: 10px 0px;
+  height: 100%;
+}
+.lt_view #refreshContainer {
+  background: #fff;
+}
+.lt_view .search {
+  margin-top: 10px;
+  padding: 0px 10px 0px;
+  border-radius: 3px;
+  height: 30px;
+}
+.lt_view .search .searchTxt {
+  float: left;
+  width: 80%;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 0;
+  border: none;
+  border: 1px solid #006699;
+  border-color: #006699;
+  font-size: 14px;
+  text-indent: 10px;
+}
+.lt_view .search .searchBtn {
+  float: right;
+  width: 20%;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border: none;
+  background: #006699;
+  color: #fff;
+}
+.lt_view .search_sort_bar {
+  font-size: 14px;
+  text-align: center;
+  color: #666;
+  background: #efeff4;
+  padding: 5px 0;
+  margin: 10px 0;
+}
+.lt_view .search_sort_bar a {
+  float: left;
+  width: 25%;
+  color: inherit;
+}
+.lt_view .search_sort_bar a span {
+  font-size: 14px;
+}
+.lt_view .search_sort_bar .active {
+  color: red;
+}
+.lt_view .life_sport_content {
+  padding: 0 5px;
+}
+.lt_view .life_sport_content .product_info {
+  padding: 5px;
+  float: left;
+  width: 50%;
+}
+.lt_view .life_sport_content .product_info .product_box {
+  border: 1px solid #ccc;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.lt_view .life_sport_content .product_info .product_box img {
+  display: block;
+  width: 100%;
+}
+.lt_view .life_sport_content .product_info .product_box .old_price {
+  text-decoration: line-through;
+}
+.lt_view .life_sport_content .product_info .product_box .new_price {
+  color: red;
+}
+.lt_view .life_sport_content .product_info .product_box .describe {
+  height: 40px;
+  overflow: hidden;
+}
+/*# sourceMappingURL=./searchList.css.map */
